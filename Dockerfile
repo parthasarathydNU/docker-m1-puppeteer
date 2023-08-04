@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 node:20.2.0
+FROM node:20.2.0
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
